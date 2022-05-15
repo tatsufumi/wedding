@@ -15,13 +15,13 @@ module.exports = {
   // ビューポートの指定
   viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
   // faviconのパス
-  faviconPath: "/assets/img/favicon.ico",
+  faviconPath: "assets/img/favicon.ico",
   // トップページ用 og:type
   ogType_top: "website",
   // トップページ以外の og:type
   ogType: "article",
   // og:image
-  ogImage: "/assets/img/blog/share/ogp.jpg",
+  ogImage: "assets/img/blog/share/ogp.jpg",
   // Twitter Card
   twitterCard: "summary",
   // Twitter Site（空の場合出力しない） 例：@ユーザー名
