@@ -15,7 +15,7 @@ module.exports = {
   // ビューポートの指定
   viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
   // faviconのパス
-  faviconPath: "assets/img/favicon.ico",
+  faviconPath: "https://tatsufumi.github.io/wedding/assets/img/favicon.ico",
   // トップページ用 og:type
   ogType_top: "website",
   // トップページ以外の og:type
