@@ -1,12 +1,1 @@
-<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 61.324">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff" stop-opacity="0.396"/>
-      <stop offset="1" stop-color="#f7f7f0"/>
-    </linearGradient>
-  </defs>
-  <g id="wave" transform="translate(-13.491 -322.83)">
-    <path d="M13.491,341.042s102.011-12.057,144.424-9.929,86.369,8.511,116.83,17.021,60.15,21.986,113.745,7.8v28.218h-375Z" fill="url(#linear-gradient)"/>
-    <path d="M13.491,322.832s56.3-.709,98.845,21.986,141.945,19.858,160.123,11.348,70.392-29.788,116.031-7.093v35.081h-375Z" fill="url(#linear-gradient)"/>
-  </g>
-</svg>
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 61.3"><defs><linearGradient id="a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#fff" stop-opacity=".4"/><stop offset="1" stop-color="#f7f7f0"/></linearGradient></defs><g transform="translate(-13.5 -322.8)" fill="url(#a)"><path d="M13.5 341s102-12 144.4-9.9 86.4 8.5 116.8 17 60.2 22 113.8 7.8v28.3h-375Z"/><path d="M13.5 322.8s56.3-.7 98.8 22 142 19.9 160.2 11.4 70.4-29.8 116-7.1v35h-375Z"/></g></svg>

@@ -40,10 +40,16 @@ const css = () => {
     )
     .pipe(sassGlob())
     .pipe(sass({
-      outputStyle: 'expanded'
+      outputStyle: 'compressed'
     }))
     .pipe(postcss([
-      autoprefixer(),
+      autoprefixer({
+        browsers: [
+            "last 2 versions", 
+            "Android >= 5"
+        ],
+        cascade: false
+      }),
       mqpacker()
     ]))
     .pipe(dest(paths.style.dist, { sourcemaps: true }))
