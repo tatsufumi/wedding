@@ -23,7 +23,7 @@ module.exports = {
   // og:image
   ogImage: "/assets/img/ogp.jpg",
   // Twitter Card
-  twitterCard: "summary",
+  twitterCard: "summary_large_image",
   // Twitter Site（空の場合出力しない） 例：@ユーザー名
   twitterSite: ""
 };
