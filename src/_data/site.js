@@ -6,7 +6,7 @@ module.exports = {
   // meta description
   description: "結婚式のweb招待状を11tyで作る",
   // URL（最後の / は含めない）
-  url: "https://tatsufumi.github.io/wedding/",
+  url: "https://tatsufumi.github.io/wedding",
   // 文字コード
   charset: "utf-8",
   // 言語
@@ -21,7 +21,7 @@ module.exports = {
   // トップページ以外の og:type
   ogType: "article",
   // og:image
-  ogImage: "assets/img/ogp.jpg",
+  ogImage: "/assets/img/ogp.jpg",
   // Twitter Card
   twitterCard: "summary",
   // Twitter Site（空の場合出力しない） 例：@ユーザー名
