@@ -6569,8 +6569,8 @@ $(function(){
      */
     if ($('.visual-swiper').length) {
         new Swiper ('.visual-swiper', {
-            slidesPerView: 1.3,
-            spaceBetween: 20,
+            slidesPerView: 1,
+            spaceBetween: 0,
             centeredSlides : true,
             loop: true,
             autoplay: {
