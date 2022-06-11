@@ -21,7 +21,7 @@ module.exports = {
   // トップページ以外の og:type
   ogType: "article",
   // og:image
-  ogImage: "https://tatsufumi.github.io/wedding/assets/img/ogp.jpg",
+  ogImage: "/assets/img/ogp.jpg",
   // Twitter Card
   twitterCard: "summary",
   // Twitter Site（空の場合出力しない） 例：@ユーザー名
