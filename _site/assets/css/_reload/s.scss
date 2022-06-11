@@ -125,8 +125,7 @@ body {
 footer {
   text-align: center;
   background: #ebcaca;
-  min-height: 80px;
-  padding: 0 20px 15px;
+  padding: 0 20px 30px;
   margin-top: -1px;
   position: relative;
   overflow: hidden;
@@ -1937,22 +1936,6 @@ body main.top .formWrap .event {
   border: 2px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   font-family: YuMincho, 'Yu Mincho', serif;
-}
-
-footer:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 48px;
-  background: url(../img/tape.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  pointer-events: none;
-  transition: none;
 }
 
 body main.top .mask {
