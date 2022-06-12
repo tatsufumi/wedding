@@ -6569,6 +6569,10 @@ $(function(){
      */
     if ($('.visual-swiper').length) {
         new Swiper ('.visual-swiper', {
+            preloadImages: false,
+            lazy: {
+            loadPrevNext: true,
+            },
             slidesPerView: 1,
             spaceBetween: 0,
             centeredSlides : true,
