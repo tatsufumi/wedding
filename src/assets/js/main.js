@@ -6536,13 +6536,13 @@ $(function(){
     if ($('#mainContents').length) {
         setTimeout(function () {
             $('.animation__background-color').addClass('--play');
-        }, 2500);
+        }, 3400);
     }
 
     if ($('.eyecatch-swiper').length) {
-        var delay = 10;
+        var delay = 0;
         if ($('#mainContents').length) {
-            delay = 2500; // .animation__background-colorã¨ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’ã‚ã‚ã›ã‚‹
+            delay = 2900; // .animation__background-colorã¨ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’ã‚ã‚ã›ã‚‹
         }
         setTimeout(function () {
             var swiper = new Swiper ('.eyecatch-swiper', {
@@ -6560,7 +6560,7 @@ $(function(){
                 },
             });
             setTimeout(function () {
-                swiper.params.autoplay.delay = 2000; // 1æžšç›®ã®è¡¨ç¤ºãŒã•ã‚Œã¦ã„ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã§delayã‚’æ¨™æº–ã«æˆ»ã™ã“ã¨ã§2æžšç›®ä»¥é™ã®delayã‚’æ¨™æº–ã«ã—ã¦ã„ã‚‹
+                swiper.params.autoplay.delay = 1800; // 1æžšç›®ã®è¡¨ç¤ºãŒã•ã‚Œã¦ã„ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã§delayã‚’æ¨™æº–ã«æˆ»ã™ã“ã¨ã§2æžšç›®ä»¥é™ã®delayã‚’æ¨™æº–ã«ã—ã¦ã„ã‚‹
             }, 1000);
         }, delay);
     }
