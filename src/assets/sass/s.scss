@@ -2504,10 +2504,13 @@ body main.top .formWrap .event {
   background: none!important;
   &__title{
     font-weight: bold;
+    padding: 0 20px;
+    font-size: 16px!important;
     margin-bottom: 40px;
   }
   &__text{
-    font-size: 16px;
+    padding: 0 20px;
+    font-size: 16px!important;
     line-height: 1.8;
     margin-bottom: 40px;
   }
