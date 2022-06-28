@@ -1,6 +1,6 @@
 module.exports = {
   // サイト名
-  title: "Tatsu and Futaba's Wedding",
+  title: "Tatsufumi and Futaba's Wedding",
   // トップページのみ付与される簡易的な説明文
   catch: "",
   // meta description
