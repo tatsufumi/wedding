@@ -1761,25 +1761,26 @@ body main.top .message p{
 
 @keyframes zoomEyecatch {
   0% {
-    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   100% {
-    -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 }
 
-.eyecatch-swiper .swiper-slide-active img,
-.eyecatch-swiper .swiper-slide-duplicate-active img,
-.eyecatch-swiper .swiper-slide-prev img,
-.eyecatch-swiper .swiper-slide-active .slide__content,
-.eyecatch-swiper .swiper-slide-duplicate-active .slide__content,
-.eyecatch-swiper .swiper-slide-prev .slide__content {
-  -webkit-animation: zoomEyecatch 4s linear 0s forwards;
-  animation: zoomEyecatch 4s linear 0s forwards;
+// .eyecatch-swiper .swiper-slide-active img,
+// .eyecatch-swiper .swiper-slide-duplicate-active img,
+// .eyecatch-swiper .swiper-slide-prev img,
+.eyecatch-swiper .js-slide__zoom .slide__content {
+// .eyecatch-swiper .swiper-slide-duplicate-active .slide__content,
+// .eyecatch-swiper .swiper-slide-prev .slide__content
+  animation: zoomEyecatch 4s ease 3s forwards;
 }
+
+// .js-slide__zoom{
+//   animation: zoomEyecatch 4s linear 0s forwards !important;
+// }
 
 body main.top {
   padding: 0;
@@ -1940,6 +1941,7 @@ body main.top .animation .slide__content {
   height: 100%;
   background-position: center;
   background-size: cover;
+  transform: scale(1.1);
 }
 
 body main.top .animation .slide__content:after {
@@ -2060,7 +2062,7 @@ body main.top .animation__party {
 
 .animation__nameimg{
   opacity: .8;
-  margin: 64px auto;
+  margin: 48px auto;
 }
 
 // .animation__dateimg{
