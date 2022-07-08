@@ -6413,15 +6413,15 @@ $(function(){
     if ($('.eyecatch-swiper').length) {
         var delay = 0;
         if ($('#mainContents').length) {
-            delay = 2900; // .animation__background-colorã¨ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã‚’ã‚ã‚ã›ã‚‹
+            delay = 2900; // グラデから1枚目の切り替わり
         }
         setTimeout(function () {
             var swiper = new Swiper ('.eyecatch-swiper', {
                 effect: 'fade',
-                speed: 2000,
+                speed: 3000,
                 loop: true,
                 autoplay: {
-                    delay: 4000, // 1æžšç›®ã®ã¿é•·ãè¡¨ç¤ºã™ã‚‹ãŸã‚ã€delayã‚’é•·ãè¨­å®š
+                    delay: 3000, // 1枚目から2枚目の切り替わり
                     disableOnInteraction: false,
                 },
                 on: {
@@ -6431,13 +6431,12 @@ $(function(){
                 },
             });
             setTimeout(function () {
-                swiper.params.autoplay.delay = 1800; // 1æžšç›®ã®è¡¨ç¤ºãŒã•ã‚Œã¦ã„ã‚‹ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã§delayã‚’æ¨™æº–ã«æˆ»ã™ã“ã¨ã§2æžšç›®ä»¥é™ã®delayã‚’æ¨™æº–ã«ã—ã¦ã„ã‚‹
+                swiper.params.autoplay.delay = 800; // 2枚目以降の切り替わり
             }, 1000);
         }, delay);
     }
-    /**
-     * ç”»åƒ2ã®ã‚¹ãƒ¯ã‚¤ãƒ‘ãƒ¼
-     */
+
+    
     if ($('.visual-swiper').length) {
         new Swiper ('.visual-swiper', {
             preloadImages: false,
